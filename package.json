@@ -1,0 +1,15 @@
+{
+    "name": "hono-nextjs-rpc-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "pnpm -r run dev",
+        "dev:interface": "pnpm --filter interface run dev",
+        "dev:server": "pnpm --filter server run dev",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
